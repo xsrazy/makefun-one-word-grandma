@@ -11,11 +11,26 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// Draft word: the plain, obvious one. Grandma sees AI news and texts
-// "ROBOT" — short, all caps the way she types, and unmistakably about
-// machines. It is the safe first pick; the final word gets weighed
-// against the funnier candidates before the entry is frozen.
-const WORD = "ROBOT";
+// The word: WITCHCRAFT. Grandma's verdict on a machine that talks back,
+// types essays and paints pictures is not a technical term — it is
+// witchcraft, typed in all caps the way she types everything. It beats
+// the candidates weighed against the judge's criteria, in their order:
+//
+// - ROBOT (the draft): the obvious pick, clearly about machines, but flat
+//   and unfunny, and the least fresh word in the field.
+// - COOKIES (food redirect): very grandma, but says nothing about AI.
+// - THEGOOGLE: a classic grandma-ism, but it is about Google, not AI.
+// - CHATGBT (her typo of ChatGPT): AI-tied and fresh, but a typo carries
+//   no warmth and the joke needs decoding.
+// - BEEPBOOP (robot sound): funny and machine-tied, but a sound effect
+//   more than a word she would text.
+// - SKYNET: too nerdy, not her voice. SCARY / WHAT / HUH: generic,
+//   they would fit any subject at all.
+//
+// WITCHCRAFT is warm and a little baffled, funny with no caption, tied
+// to the mysterious machine, and fresher than the obvious picks — while
+// still the exact word a grandmother would send her grandchild.
+const WORD = "WITCHCRAFT";
 
 // Gate guard: one word, 1-30 characters, no whitespace at all. Fail
 // loudly here rather than ever writing an invalid entry.

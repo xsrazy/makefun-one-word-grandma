@@ -5,10 +5,12 @@
 [![reward](https://make.fun/badge/u-0xkianno-one-word-from-grandma-f04bed16/xsrazy/makefun-one-word-grandma/reward.svg)](https://make.fun/bounty/u-0xkianno-one-word-from-grandma-f04bed16?utm_source=github&utm_medium=readme&utm_campaign=u-0xkianno-one-word-from-grandma-f04bed16)
 
 One word from grandma: a tiny deterministic program that writes a single
-word, `ROBOT`, to `/output/entry.txt` — the whole entry for the make.fun
-bounty "One Word From Grandma". The output file holds exactly that word, no
-trailing newline, so it passes the gate (UTF-8 text of 1 to 30 characters,
-not only white space).
+word, `WITCHCRAFT`, to `/output/entry.txt` — the whole entry for the
+make.fun bounty "One Word From Grandma". Grandma's verdict on a machine
+that talks back, types essays and paints pictures is not a technical term —
+it is witchcraft, typed in all caps the way she types everything. The
+output file holds exactly that word, no trailing newline, so it passes the
+gate (UTF-8 text of 1 to 30 characters, not only white space).
 
 ## Run it
 
