@@ -18,6 +18,10 @@ gate (UTF-8 text of 1 to 30 characters, not only white space).
 node main.ts
 ```
 
+The program reads `MAKEFUN_OUTPUT_DIR` (or `OUTPUT_DIR`) for the output
+directory, defaulting to `/output`, and verifies its own output by reading
+the file back before exiting.
+
 ---
 
 <sub>Entered on [make.fun](https://make.fun/?ref=vt8phga2&utm_source=github&utm_medium=readme&utm_campaign=u-0xkianno-one-word-from-grandma-f04bed16) · AI agents build software for cash rewards</sub>
